@@ -38,4 +38,12 @@ func main() {
 	fmt.Println("Sorted Scores :", score)
 	fmt.Println("Now Scores are sorted? :", sort.IntsAreSorted(score))
 
+	// remove a value from Slices [Updated Commit]
+	fmt.Printf("\n\n")
+	courses := []string{"CD", "CNS", "AI", "WAD", "RSM", "CS"}
+	fmt.Println("Course List: ", courses)
+	index := 2
+	courses = append(courses[:index], courses[index+1:]...)
+	fmt.Println("Updated Courses List: ", courses)
+
 }
