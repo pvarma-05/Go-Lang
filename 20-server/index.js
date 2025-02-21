@@ -1,6 +1,6 @@
 // This is server created for GO
 // we will use this server to fetch Data using GO
-// install node and try to run this server by command "npm start"
+// install node and try to run this server by npm install and command "npm start"
 // make sure to run this server and proceed to next folders
 const express = require("express")
 const app = express()
